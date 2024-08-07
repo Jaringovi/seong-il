@@ -88,6 +88,6 @@ public class BOJ_24060 {
 //		System.out.println(Arrays.toString(originArr)); // 정렬 정상 작동 여부 확인
 		System.out.println(answer);
 		
-	}//메인 닫는 괄호
+	}//메인 닫는 괄호 
 
 }
