@@ -21,7 +21,7 @@ import java.util.StringTokenizer;
 //// 막혔던 시간초과 통과했는데 이제는 스택오버플로우가 뜨네
 //// 그냥 한번에 쫙 쪼개지 말고 한사분면씩 들어가는게 맞겠다 이건 DFS인데 재귀보다
 
-public class BOJ_2630_1 {
+public class BOJ_24460_1 {
 
 	// 입력부
 	static BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
