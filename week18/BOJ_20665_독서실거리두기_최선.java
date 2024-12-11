@@ -1,7 +1,7 @@
 package study.week18;
 import java.io.*;
 import java.util.*;
-
+ 
 public class BOJ_20665_독서실거리두기_최선 {
 	// 입력고정
 	static BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
