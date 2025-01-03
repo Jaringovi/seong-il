@@ -3,6 +3,10 @@ package study.week21;
 import java.io.*;
 import java.util.*;
 
+// 1. 임의의 정점을 선택하여 하나의 정점을 갖는 최초의 트리를 구성한다.
+// 2. 트리에 포함된 정점과 트리에 포함되지 않은 정점 간의 간선 중 가장 작은 가중치를 가지는 간선을 선택하여 트리에 추가한다.
+// 3. 모든 정점이 트리에 포함될 때 까지 2를 반복한다.
+
 public class BOJ_21942_도시건설 {
 	// 클래스 만들기.
 	static class Node implements Comparable<Node> {
