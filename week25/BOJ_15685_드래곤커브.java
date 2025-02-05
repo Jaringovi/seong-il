@@ -1,6 +1,12 @@
 package study.week25;
 import java.io.*;
 import java.util.*;
+// 디버깅 포인트
+// 윗방향이 y가 증가하고, 오른쪽 방향이 x가 증가하는 일반적인 좌표평면 상에서 
+// 시계방향으로 돌리게 되면 nx += pmy;ny -= pmx; 가 돼야한다.
+// 하지만 문제에서는 아래방향이 y가 증가하고, 오른쪽 방향이 x가 증가하는 좌표평면이므로
+// 이 좌표평면에서 시계방향은 일반적인 좌표평면에서는 반시계방향이 된다.
+// 따라서 일반적인 좌표평면에서 반시계방향으로 돌리게 되면 nx -= pmy; ny += pmx; 가 된다.
 public class BOJ_15685_드래곤커브 {
 	// 입력 고정
 	static BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
